@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="products">
+		<field name="product_id" type="I"><UNSIGNED/><KEY/><AUTOINCREMENT/></field>
+                <field name="photo_fID" type="I"><UNSIGNED/></field>
+		<field name="title" type="C" size="255"><NOTNULL/></field>
+		<field name="description" type="X"></field>
+		<field name="price" type="F"></field>
+	</table>
+</schema>
+
